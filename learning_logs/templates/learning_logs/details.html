@@ -21,7 +21,7 @@
       <div class = "panel-heading">
         <h3> {{ entry.date_added|date:'M d, Y H:i' }} 
           <small>
-            <a href = "{% url 'goblin:edit_entry' entry.id">
+            <a href = "{% url 'goblin:edit_entry' entry.id %}">
             edit entry</a>
           </small>
         </h3>
